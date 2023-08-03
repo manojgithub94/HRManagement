@@ -1,0 +1,64 @@
+# Software Requirements Specification (SRS) Document
+## HR Management System
+
+### 1. Goals
+The primary goal of the HR Management System is to provide an efficient and user-friendly software solution to assist the organization in managing its human resources effectively. The system aims to streamline the process of assigning skilled employees to projects, maintaining employee information, tracking training, generating HR reports, and improving overall HR management.
+
+### 2. Scope
+The HR Management System will encompass several modules that facilitate different aspects of HR management. The system's scope includes the following modules:
+
+- Employee Info Module: Manage employee information, including personal details, qualifications, skills, experience, login credentials, etc.
+- Administration Module: Handle employee hiring, payment criteria, and other related administrative tasks.
+- Project Management Module: Track and manage projects associated with each employee.
+- Training Management Module: Organize employee training based on experience and attendance, and provide information on required training for specific projects.
+- HR Reports Module: Generate HR reports based on specific requests.
+
+The system will focus on automating HR processes, reducing manual work, and improving data accessibility, reliability, and maintenance.
+
+### 3. Functional Requirements
+#### 3.1 Employee Info Module
+- Add new employees to the system with their personal details, qualifications, skills, and experience.
+- Allow employees to update their information when needed.
+- Provide a login system with secure credentials for each employee to access their own profile.
+
+#### 3.2 Administration Module
+- Facilitate the hiring process, enabling the administrator to record details of eligible candidates.
+- Maintain records of payments and employee personal information.
+
+#### 3.3 Project Management Module
+- Track and display past and current projects associated with each employee.
+- Allow the administrator to assign employees to specific projects.
+
+#### 3.4 Training Management Module
+- Identify training needs based on employees' experience and skills.
+- Monitor attendance and progress during training sessions.
+- Recommend specific training programs based on project requirements.
+
+#### 3.5 HR Reports Module
+- Provide a user-friendly interface for HR personnel to request specific reports.
+- Generate reports related to employee skills, project allocation, training progress, etc.
+
+### 4. Non-functional Requirements
+- **Usability**: The system must have a simple and intuitive user interface to ensure ease of use for HR administrators and employees.
+- **Reliability**: The system should accurately record and store employee data, project information, and training records.
+- **Performance**: The system must handle concurrent user requests efficiently without significant delays or slowdowns.
+- **Security**: Ensure robust security measures to protect sensitive employee data and access control.
+- **Maintainability**: The system should be easy to maintain, with clear code structure and documentation.
+- **Availability**: The HR Management System should be available for use during regular working hours.
+- **Compatibility**: The system should be compatible with common web browsers and operating systems.
+
+### 5. Advantages of the Proposed Project
+- Easy access to employee data and project information.
+- Improved user-friendliness, reliability, and flexibility compared to existing manual systems.
+- Simplified data alteration and system maintenance.
+- Reduced manual work through automation.
+- Timely generation of HR reports.
+
+### 6. Disadvantages
+- Requires an active internet connection for accessing the system.
+- Application may be more suitable for small or large organizations, limiting its use in other scenarios.
+
+### 7. Application
+The HR Management System can be utilized by small or large organizations to effectively manage their human resources, streamline project allocation, track employee training, and generate HR reports.
+
+Please note that this is a basic outline for the SRS document. In practice, a comprehensive SRS document would include additional sections such as User Interface design, Data Requirements, System Architecture, Use Cases, Assumptions, Dependencies, and Acceptance Criteria, among others.
